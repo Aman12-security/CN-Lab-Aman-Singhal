@@ -31,7 +31,6 @@ grep searches patterns in files. Options like -i, -n, -r, -v make it powerful fo
 9. `grep -r Linux` (if multiple files)
 
 ## Configuration Commands
-```bash
 mkdir grep_lab
 cd grep_lab
 # nano sample.txt (add lines)
@@ -51,6 +50,7 @@ Outcomes:
  • Automate pattern-search tasks in scripts for efficient system administration. 
  • Understand the role of text-searching tools in troubleshooting and cybersecurity 
    monitoring. 
+   
 Result:  
  • Lines matching the specified search pattern are correctly displayed. 
  • Line numbers are shown when the appropriate option is used. 
