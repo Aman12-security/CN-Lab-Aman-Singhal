@@ -34,7 +34,6 @@ Linux provides commands like touch, cp, mv, rm, cat and redirection operators >,
 11. `ls`
 
 ## Configuration Commands
-```bash
 mkdir file_ops
 cd file_ops
 touch file1.txt file2.txt
