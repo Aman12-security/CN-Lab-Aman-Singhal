@@ -1,0 +1,13 @@
+mkdir file_ops
+cd file_ops
+touch file1.txt file2.txt
+echo "This is file1" > file1.txt
+echo "This is file2" > file2.txt
+cat file1.txt
+cp file1.txt copy_file1.txt
+mv file2.txt renamed_file2.txt
+mkdir backup
+mv copy_file1.txt backup/
+echo "Additional content" >> file1.txt
+rm renamed_file2.txt
+ls
