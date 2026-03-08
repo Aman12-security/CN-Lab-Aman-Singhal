@@ -1,0 +1,10 @@
+mkdir grep_lab
+cd grep_lab
+nano sample.txt
+cat file1.txt
+grep linux sample.txt
+grep -i linux sample.txt
+grep -n linux sample.txt
+grep -v linux sample.txt
+fgrep "Bash scripting" sample.txt
+grep -r linux
