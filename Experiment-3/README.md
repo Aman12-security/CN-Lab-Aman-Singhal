@@ -33,21 +33,20 @@ Linux follows a hierarchical file system starting from the root directory /. Fil
 8. `cat file1.txt`
 9. Change permissions & check with `chmod` and `stat`.
 
-## Configuration Commands
-```bash
-pwd
-ls -l
-mkdir linux_lab
-cd linux_lab
-touch file1.txt file2.txt
-cat file1.txt
-# nano & vi done interactively
+## Configuration Commands:
+ pwd
+ ls -l
+ mkdir linux_lab
+ cd linux_lab
+ touch file1.txt file2.txt
+ cat file1.txt
 
 Outcomes:
  Successful creation of directories and files  
  Files edited using nano and vi  
  File contents displayed using cat  
  File permissions viewed and modified using chmod  
+ 
 Result:
  Thus, file and directory management commands were successfully executed in Linux. 
  The student learned to create, edit, and manage files and directories, understand file 
