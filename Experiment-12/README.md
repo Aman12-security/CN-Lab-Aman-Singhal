@@ -74,7 +74,7 @@ Loops such as `for`, `while`, and `until` are used to repeat tasks.
    result=$((num1 + num2))
    echo "Result of addition: $result"
 
-6. **Execute the script:
+6. **Execute the script**:
    ```bash
     ./arithmetic_script.sh
 
@@ -90,11 +90,11 @@ Loops such as `for`, `while`, and `until` are used to repeat tasks.
      echo "You are a minor."
    fi
 
-8. **Execute the script:
+8. **Execute the script**:
    ```bash
    ./conditional_script.sh
 
-### E. Usin Loop:
+### E. Using Loop:
 9. ** Create a script with a loop:**
    ```bash
    #!/bin/bash
@@ -102,7 +102,7 @@ Loops such as `for`, `while`, and `until` are used to repeat tasks.
    do
     echo "Iteration $i"
    done
-10. **Execute the script:
+10. **Execute the script**:
     ```bash
     ./loop_script.sh
 
