@@ -1,0 +1,35 @@
+# Configuration for Experiment: Implementation of Bash Shell Scripts for Automation Using Input, Conditions, and Loops
+
+# Shell Script Features
+- Interactive Scripts: Accept input from the user during execution using the `read` command.
+- Positional Parameters:
+  - $0 – Script name
+  - $1, $2, ... – Positional parameters
+- Arithmetic Operations: Performed using `$((expression))`
+- Conditional Statements: 
+  - if
+  - if-else
+  - elif
+- Loops:
+  - for
+  - while
+  - until
+
+# Essential Commands
+1. nano simple_script.sh         # Create and edit the script.
+2. chmod +x simple_script.sh     # Make the script executable.
+3. ./simple_script.sh            # Execute the script.
+4. ./param_script.sh param1 param2  # Run script with positional parameters.
+5. ./arithmetic_script.sh        # Execute the arithmetic script.
+6. ./conditional_script.sh       # Execute the script with conditions.
+7. ./loop_script.sh              # Execute the script with loops.
+
+# Step-by-Step Procedure
+
+## A. Writing a Simple Interactive Script
+- Step 1: Create the script `simple_script.sh`:
+  ```bash
+  #!/bin/bash
+  echo "Enter your name:"
+  read name
+  echo "Hello, $name!"
